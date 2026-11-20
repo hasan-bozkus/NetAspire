@@ -1,0 +1,6 @@
+@NetAspire.Bastek.WebApi_HostAddress = http://localhost:5096
+
+GET {{NetAspire.Bastek.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

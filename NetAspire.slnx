@@ -1,1 +1,7 @@
-<Solution />
+<Solution>
+  <Project Path="NetAspire.AppHost/NetAspire.AppHost.csproj" />
+  <Project Path="NetAspire.Basket.WebApi/NetAspire.Basket.WebApi.csproj" />
+  <Project Path="NetAspire.Category.WebApi/NetAspire.Category.WebApi.csproj" />
+  <Project Path="NetAspire.Product.WebApi/NetAspire.Product.WebApi.csproj" />
+  <Project Path="NetAspire.Service.Defaults/NetAspire.Service.Defaults.csproj" />
+</Solution>

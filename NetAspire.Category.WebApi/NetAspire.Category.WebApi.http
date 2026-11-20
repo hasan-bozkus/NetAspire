@@ -1,0 +1,6 @@
+@NetAspire.Category.WebApi_HostAddress = http://localhost:5221
+
+GET {{NetAspire.Category.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
