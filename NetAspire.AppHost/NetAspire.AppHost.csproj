@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -11,12 +11,16 @@
   <ItemGroup>
     <PackageReference Include="Aspire.Hosting.AppHost" Version="17.0.0" />
     <PackageReference Include="Aspire.Hosting.Dotnet" Version="17.0.0" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="17.0.0" />
+    <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="17.0.0" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="17.0.0" />
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="17.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NetAspire.Basket.WebApi\NetAspire.Basket.WebApi.csproj" />
-    <ProjectReference Include="..\NetAspire.Category.WebApi\NetAspire.Category.WebApi.csproj" />
-    <ProjectReference Include="..\NetAspire.Product.WebApi\NetAspire.Product.WebApi.csproj" />
+    <ProjectReference Include="..\NetAspire.Basket.WebApi\NetAspire.Basket.WebApi.csproj" IsAspireProjectResource="true" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\NetAspire.Category.WebApi\NetAspire.Category.WebApi.csproj" IsAspireProjectResource="true" ReferenceOutputAssembly="false" />
+    <ProjectReference Include="..\NetAspire.Product.WebApi\NetAspire.Product.WebApi.csproj" IsAspireProjectResource="true" ReferenceOutputAssembly="false" />
   </ItemGroup>
 
 </Project>
